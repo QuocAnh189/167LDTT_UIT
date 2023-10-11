@@ -1,10 +1,10 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
 using namespace std;
 int main()
 {
 	float x;
-	cout << "Nhap x: ";
+	cout << "Enter x: ";
 	cin >> x;
 	float x2 = x * x;
 	float x4 = x2 * x2;
@@ -12,6 +12,6 @@ int main()
 	float x16 = x8 * x8;
 	float x32 = x16 * x16;
 	long long x64 = x32 * x32;
-	cout << x64;
+	cout << "x64 = " << x64;
 	return 0;
 }

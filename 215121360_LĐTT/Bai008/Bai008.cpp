@@ -1,15 +1,17 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
+
 int main()
 {
 	int n;
-	cout << "Nhap canh cua da  giac deu: ";
+	cout << "Enter the sides of the regular polygon: ";
 	cin >> n;
 	float r;
-	cout << "Nhap ban kinh duong tron ngoai tiep da giac: ";
+	cout << "Enter the radius of the circle circumscribing the polygon: ";
 	cin >> r;
 	float p = 2 * n * r * sin(3.14 / n);
-	cout << "Chu Vi da giac deu la: " << p;
+	cout << "The perimeter of a regular polygon is: " << p;
 	return 0;
 }

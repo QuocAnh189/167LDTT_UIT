@@ -1,15 +1,16 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	int t = n;
-	int	T = 1;
+	int T = 1;
 	while (t != 0)
 	{
 		int dv = t % 10;
@@ -19,6 +20,6 @@ int main()
 		}
 		t = t / 10;
 	}
-	cout << "Tich cac chu so le la: " << T;
+	cout << "The product of odd digits is " << T;
 	return 0;
 }

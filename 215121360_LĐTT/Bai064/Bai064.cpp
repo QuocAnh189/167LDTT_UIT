@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	int t = n;
@@ -19,6 +20,6 @@ int main()
 		}
 		t = t / 10;
 	}
-	cout << "Chu so lon nhat la: " << lc;
+	cout << "The largest digit is " << lc;
 	return 0;
 }

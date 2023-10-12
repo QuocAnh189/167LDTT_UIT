@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	int t = n;
@@ -21,11 +22,11 @@ int main()
 	}
 	if (flag == 1)
 	{
-		cout << "Ton tai";
+		cout << "Exits";
 	}
 	else
 	{
-		cout << "Khong ton tai";
+		cout << "Not Exits";
 	}
 	return 0;
 }

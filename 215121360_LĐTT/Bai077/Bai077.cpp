@@ -1,14 +1,15 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 	float k;
-	cout << "Nhap k: ";
+	cout << "Enter k: ";
 	cin >> k;
 
 	float S = 0;
@@ -18,6 +19,6 @@ int main()
 		S = S + pow(i, k);
 		i = i + 1;
 	}
-	cout << "Tong la: " << S;
+	cout << "Sum is " << S;
 	return 0;
 }

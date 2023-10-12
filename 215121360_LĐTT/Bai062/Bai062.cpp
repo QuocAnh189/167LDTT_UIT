@@ -1,11 +1,11 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	int t = n;
@@ -19,6 +19,6 @@ int main()
 		}
 		t = t / 10;
 	}
-	cout << "Tong cac chu so chan la: " << S;
+	cout << "Sum of even digits is " << S;
 	return 0;
 }

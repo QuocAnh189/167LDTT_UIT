@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	int T = 1;
@@ -18,6 +19,6 @@ int main()
 		}
 		i = i + 2;
 	}
-	cout << "Tich cac uoc so le la: " << T;
+	cout << "The product of odd divisors is " << T;
 	return 0;
 }

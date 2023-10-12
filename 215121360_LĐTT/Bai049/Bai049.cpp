@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	int i = 1;
@@ -13,7 +14,8 @@ int main()
 	{
 		if (n % i == 0)
 		{
-			cout << "i" << " ";
+			cout << "i"
+				 << " ";
 		}
 		i = i + 1;
 	}

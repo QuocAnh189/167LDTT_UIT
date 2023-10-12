@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	int S = 0;
@@ -18,6 +19,6 @@ int main()
 		}
 		i = i + 1;
 	}
-	cout << "Tong cac uoc so la: " << S;
+	cout << "The sum of the divisors is " << S;
 	return 0;
 }

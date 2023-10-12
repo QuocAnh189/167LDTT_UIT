@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	int t = n;
@@ -16,6 +17,6 @@ int main()
 		T = T * dv;
 		t = t / 10;
 	}
-	cout << "Tich cac chu so la: " << T;
+	cout << "The product of the digits is " << T;
 	return 0;
 }

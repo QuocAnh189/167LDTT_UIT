@@ -1,11 +1,11 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	int dem = 0;
@@ -18,6 +18,6 @@ int main()
 		}
 		i = i + 2;
 	}
-	cout << "So luong cac uoc so chan la: " << dem;
+	cout << "The number of even divisors is " << dem;
 	return 0;
 }

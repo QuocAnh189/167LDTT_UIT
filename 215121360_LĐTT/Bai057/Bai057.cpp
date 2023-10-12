@@ -1,16 +1,16 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	int S = 0;
 	int i = 1;
-	cout << "Cac uoc so le la: ";
+	cout << "Odd divisors are ";
 	while (i < n)
 	{
 		if (n % i == 0)
@@ -19,6 +19,6 @@ int main()
 		}
 		i = i + 1;
 	}
-	cout << "Tich cac uoc so le la: " << S;
+	cout << "The product of odd divisors is " << S;
 	return 0;
 }

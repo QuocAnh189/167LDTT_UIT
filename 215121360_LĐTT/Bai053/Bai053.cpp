@@ -1,15 +1,16 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	int i = 1;
-	cout << "Cac uoc so le la: ";
+	cout << "Odd divisors are ";
 	while (i <= n)
 	{
 		if (n % i == 0)

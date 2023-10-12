@@ -10,10 +10,9 @@ int main()
 	cin >> a;
 	cout << "Enter b: ";
 	cin >> b;
-
-	int temp = a;
-	a = b;
-	b = temp;
+	a = a + b;
+	b = a - b;
+	a = a - b;
 	cout << "Swap: "
 		 << "a = " << a << " b = " << b;
 	return 0;

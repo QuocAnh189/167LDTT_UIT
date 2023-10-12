@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	float T = 1;
@@ -15,7 +16,6 @@ int main()
 		T = T * (1 + (float)1 / (i * i));
 		i = i + 1;
 	}
-	cout << "Tong la: " << T;
+	cout << "Sum is " << T;
 	return 0;
-
 }

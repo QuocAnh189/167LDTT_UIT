@@ -1,10 +1,11 @@
-#include<iostream>
+#include <iostream>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 
 	float S = 0;
@@ -14,7 +15,6 @@ int main()
 		S = S + (float)1 / i;
 		i = i + 1;
 	}
-	cout << "Tong la: " << S;
+	cout << "Sum is: " << S;
 	return 1;
-
 }

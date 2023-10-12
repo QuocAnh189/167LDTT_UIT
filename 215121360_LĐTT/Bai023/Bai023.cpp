@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+
 using namespace std;
 
 int main()
@@ -7,14 +8,7 @@ int main()
 	int n;
 	cout << "Enter n: ";
 	cin >> n;
-
-	int S = 0;
-	int i = 1;
-	while (i <= n)
-	{
-		S = S + i * (i + 1);
-		i = i + 1;
-	}
-	cout << "Sum is " << S;
+	int tens = (n / 10) % 10;
+	cout << "The tens digit is " << tens;
 	return 0;
 }

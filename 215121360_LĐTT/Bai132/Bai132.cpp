@@ -1,6 +1,8 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
+
 int main()
 {
 	float xA, yA, xB, yB, xC, yC, xM, yM;
@@ -26,11 +28,11 @@ int main()
 	float S4 = abs(xM * yC + xB * yA + xA * yM - xB * yM - xM * yC - xM * yC) / 2;
 	if (S1 == S2 + S3 + S4)
 	{
-		cout << "M nam trong tam giac";
+		cout << "This is the triangle";
 	}
 	else
 	{
-		cout << "M Khong ton tai tam giac";
+		cout << "This is not the triangle";
 	}
 	return 0;
 }

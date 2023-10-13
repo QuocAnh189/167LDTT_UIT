@@ -1,17 +1,18 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	float a;
-	cout << "Nhap a: ";
+	cout << "Enter a: ";
 	cin >> a;
 	float b;
-	cout << "Nhap b: ";
+	cout << "Enter b: ";
 	cin >> b;
 	float c;
-	cout << "Nhap c: ";
+	cout << "Enter c: ";
 	cin >> c;
 	if (a > b)
 	{

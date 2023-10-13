@@ -1,26 +1,26 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	float x;
-	cout << "Nhap x: ";
+	cout << "Enter x: ";
 	cin >> x;
 	float y;
-	cout << "Nhap y: ";
+	cout << "Enter y: ";
 	cin >> y;
 	float z;
-	cout << "Nhap z: ";
+	cout << "Enter z: ";
 	cin >> z;
 	if (x <= y && y <= z)
 	{
-		cout << "BDT Dung";
+		cout << "BDT Right";
 	}
 	else
 	{
-		cout << "BDT Sai";
+		cout << "BDT Wrong";
 	}
 	return 0;
-
 }

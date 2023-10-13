@@ -1,25 +1,26 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	float x;
-	cout << "Nhap x: ";
+	cout << "Enter x: ";
 	cin >> x;
 	float y;
-	cout << "Nhap y: ";
+	cout << "Enter y: ";
 	cin >> y;
 	float z;
-	cout << "Nhap z: ";
+	cout << "Enter z: ";
 	cin >> z;
 	if (y + z > x && z + x > y && x + y > z)
 	{
-		cout << "La tam giac";
+		cout << "This is the triangle";
 	}
 	else
 	{
-		cout << "Khong ton tai tam giac";
+		cout << "This is not the triangle";
 	}
 	return 0;
 }

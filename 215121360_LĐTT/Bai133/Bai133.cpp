@@ -1,20 +1,22 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
+
 int main()
 {
 	float x, y, z;
-	cout << "Nhap x: ";
+	cout << "Enter x: ";
 	cin >> x;
-	cout << "Nhap y: ";
+	cout << "Enter y: ";
 	cin >> y;
-	cout << "Nhap z: ";
+	cout << "Enter z: ";
 	cin >> z;
 	if (x + y < z && x + z < y && y + z < x)
 	{
 		if (x == y && x == z)
 		{
-			cout << "TG deu";
+			cout << "This is an equilateral triangle";
 		}
 		else
 		{
@@ -22,22 +24,22 @@ int main()
 			{
 				if (x == y || x == z || y == z)
 				{
-					cout << "TG Vuong can";
+					cout << "This is an isosceles right triangle";
 				}
 				else
 				{
-					cout << "TG Vuong";
+					cout << "This is a right triangle";
 				}
 			}
 			else
 			{
 				if (x == y || x == z || y == z)
 				{
-					cout << "TG can";
+					cout << "This is an isosceles triangle";
 				}
 				else
 				{
-					cout << "TG thuong";
+					cout << "This is an normal triangle";
 				}
 			}
 		}

@@ -1,5 +1,6 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
@@ -23,5 +24,4 @@ int main()
 		f = -2 * x * x * x + 6 * x + 9;
 	}
 	return 0;
-
 }

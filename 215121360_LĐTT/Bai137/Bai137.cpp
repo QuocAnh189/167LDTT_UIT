@@ -1,10 +1,11 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
-	float x,f;
+	float x, f;
 	cin >> x;
 	if (x >= 5)
 	{
@@ -16,5 +17,4 @@ int main()
 	}
 	cout << f;
 	return 0;
-
 }

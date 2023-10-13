@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 	float at = 1;
 	float bt = 1;
@@ -19,6 +20,6 @@ int main()
 		bt = bhh;
 		i = i + 1;
 	}
-	cout << ahh << " " << bhh;
+	cout << "Result is " << ahh << " " << bhh;
 	return 0;
 }

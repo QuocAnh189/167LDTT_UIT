@@ -1,10 +1,11 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
-	float S = 4 - (float)2 / 4 - (float) 1 / 5 - (float)1 / 6;
+	float S = 4 - (float)2 / 4 - (float)1 / 5 - (float)1 / 6;
 	float e = S;
 	float T = 1;
 	int i = 1;
@@ -15,6 +16,6 @@ int main()
 		S = S + e;
 		i = i + 1;
 	}
-	cout << S;
+	cout << "Result is " << S;
 	return 0;
 }

@@ -1,5 +1,6 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
@@ -13,6 +14,6 @@ int main()
 		S = S + e;
 		i = i + 2;
 	}
-	cout << S;
+	cout << "Result is " << S;
 	return 0;
 }

@@ -1,10 +1,11 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
-	
+
 	float S = 1;
 	int M = 1;
 	float i = 1;
@@ -16,6 +17,6 @@ int main()
 		S = S + e;
 		i = i + 1;
 	}
-	cout << S;
+	cout << "Result is " << S;
 	return 0;
 }

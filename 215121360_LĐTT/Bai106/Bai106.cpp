@@ -1,11 +1,12 @@
 #include<iostream>
 #include<cmath>
+
 using namespace std;
 
 int main()
 {
 	float x;
-	cout << "Nhap x: ";
+	cout << "Enter x: ";
 	cin >> x;
 	float a = (x * 3.14) / 180;
 	float S = x;
@@ -23,6 +24,6 @@ int main()
 		dau = -dau;
 		i = i + 2;
 	}
-	cout << S;
+	cout << "Result is " << S;
 	return 0;
 }

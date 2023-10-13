@@ -1,12 +1,13 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 	int flag = 1;
 	int t = n;
@@ -22,11 +23,11 @@ int main()
 	}
 	if (flag == 1)
 	{
-		cout << "Giam dan";
+		cout << "Decrease";
 	}
 	else
 	{
-		cout << "Khong giam dan: ";
+		cout << "Not Decrease";
 	}
 	return 0;
 }

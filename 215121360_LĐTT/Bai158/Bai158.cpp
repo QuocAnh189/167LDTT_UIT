@@ -1,12 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
-
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 	int dem = 0;
 	int lc = n % 10;
@@ -27,6 +27,6 @@ int main()
 			dem = dem + 1;
 		a = a / 10;
 	}
-	cout << "So luong chu so lon nhat la: " << dem;
+	cout << "The largest number of digits is " << dem;
 	return 0;
 }

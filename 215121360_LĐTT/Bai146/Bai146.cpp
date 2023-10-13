@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 	int t = abs(n);
 	int dn = 0;
@@ -17,11 +18,11 @@ int main()
 	}
 	if (dn == n)
 	{
-		cout << "La so doi dung";
+		cout << "symmetric number";
 	}
 	else
 	{
-		cout << "Khong la so doi xung";
+		cout << "Not symmetric number";
 	}
 	return 0;
 }

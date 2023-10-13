@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 	int t = n;
 	int flag = 1;
@@ -20,11 +21,11 @@ int main()
 	}
 	if (flag == 1)
 	{
-		cout << "Chu so toan le";
+		cout << "The digits are all odd numbers";
 	}
 	else
 	{
-		cout << "Khong la chu so toan le";
+		cout << "The digits are not all odd numbers";
 	}
 	return 0;
 }

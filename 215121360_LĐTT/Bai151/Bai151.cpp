@@ -1,12 +1,13 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 	int t = n;
 	int flag = 1;
@@ -21,11 +22,11 @@ int main()
 	}
 	if (flag == 1)
 	{
-		cout << "Co dang 2 mu m";
+		cout << "Has form 2m";
 	}
 	else
 	{
-		cout << "Khong co dang 2 mu m";
+		cout << "Not has form 2m";
 	}
 	return 0;
 }

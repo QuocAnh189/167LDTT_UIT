@@ -1,18 +1,18 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
-
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 	int t = n;
 	if (t % 2 == 0)
 	{
 		t = t / 2;
 	}
-	cout << "Uoc so le lon nhat la: " << t;
+	cout << "The greatest odd divisor is " << t;
 	return 0;
 }

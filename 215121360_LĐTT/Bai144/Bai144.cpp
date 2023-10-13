@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 	int i = 1;
 	int dem = 0;
@@ -19,10 +20,10 @@ int main()
 	}
 	if (dem == 2)
 	{
-		cout << "La so nguyen to";
+		cout << "Prime";
 	}
 	else
 	{
-		cout << "Khong la so nguyen to";
+		cout << "Not Prime";
 	}
 }

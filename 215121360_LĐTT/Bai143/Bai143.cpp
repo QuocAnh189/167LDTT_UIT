@@ -1,11 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 int main()
 {
 	int n;
-	cout << "Nhap n: ";
+	cout << "Enter n: ";
 	cin >> n;
 	int t = n;
 	int i = 1;
@@ -20,10 +21,11 @@ int main()
 	}
 	if (S == t)
 	{
-		cout << "La so hoan thien";
+		cout << "Complete number";
 	}
 	else
 	{
-		cout << "Khong la so hoan thien";
+		cout << "Not Complete number";
 	}
 	return 0;
+}
